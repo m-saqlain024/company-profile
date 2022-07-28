@@ -1,0 +1,419 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    /* background-image: url(''); */
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+/* ********************** nav bar styling start here ********************* */
+.nav__background {
+    background-image: url('images/templatemo_header_bg.jpg');
+    width: 70%;
+    height: 19vh;
+    margin: 0% auto;
+    border-bottom: 1%;
+    color: white;
+}
+
+.nav__logo h1 {
+    font-size: 40px;
+    color: rgb(33, 141, 251);
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.nav__logo h2 {
+
+    font-size: 16px;
+    color: rgb(135, 129, 129);
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav__searchbar {
+    display: flex;
+    margin-top: 30px;
+    /* height: 400px; */
+}
+
+.searchbar {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    height: 15px;
+    width: 180px;
+    border-width: 1px;
+    border-color: rgb(118, 118, 118);
+    background: rgb(67, 67, 67);
+    padding: 4px;
+}
+
+.submit {
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    height: 25px;
+    text-align: center;
+    width: 50px;
+    margin: 0px 0px 0px 7px;
+    padding: 0px 6px;
+}
+
+.nav__head {
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 3%;
+}
+
+/* ********************** nav bar styling end here ********************* */
+/* ********************** nav banner styling end here ********************* */
+.nav__banner {
+    background-image: url('images/templatemo_banner_bg.jpg');
+    width: 70%;
+    height: 40vh;
+    margin: 0% auto;
+}
+
+.banner__div {
+    color: white;
+
+    float: left;
+    padding-top: 40px;
+    width: 370px;
+}
+
+.banner__li {
+    float: right;
+    width: 252px;
+    padding: 5px 15px 0px;
+    /* background-image: url('images/templatemo_menu_item_bg.jpg'); */
+}
+
+.banner__li ul li a span {
+
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(43, 185, 236);
+    margin: 0px 0px 0px 50px;
+    padding: 0px;
+}
+
+.banner__li ul {
+
+    clear: both;
+    margin: 0px;
+    padding: 10px 0px 0px;
+    list-style: none;
+}
+
+.banner__li ul li a {
+
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(43, 185, 236);
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner__li ul li {
+    text-decoration: none;
+    height: 13px;
+    font-weight: bold;
+    padding: 12px 0px 10px 7px;
+    margin: 0px 0px 5px;
+    background: url(images/templatemo_menu_item_bg.jpg) left bottom no-repeat;
+}
+
+.read___more a {
+    float: left;
+    height: 21px;
+    width: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 2px 0px 0px 10px;
+    margin: 20px 15px 10px 0px;
+    border-style: none;
+    background: url(images/templatemo_readmore_button.jpg) no-repeat;
+}
+
+/* ********************** nav banner styling end here ********************* */
+.body__top {
+    /* clear: both; */
+    width: 960px;
+    height: 30px;
+    background: url(images/templatemo_content_top.jpg) center top no-repeat;
+    margin: 0% auto;
+    margin-left: 15%;
+}
+
+/* ********************** website content  styling start here ********************* */
+.content__start__here {
+    clear: both;
+    overflow: hidden;
+    width: 880px;
+    padding: 10px 20px 0 40px;
+    /* margin: 0% auto; */
+    margin-left: 212px;
+    background-color: #1f1f1f;
+}
+
+.content__left {
+    float: left;
+    width: 580px;
+}
+
+.content__left h1 {
+
+    font-size: 22px;
+    color: #218dfb;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px dotted #000000;
+}
+
+.content__left p {
+
+    color: white;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.content__left__colum_one {
+    float: left;
+    width: 270px;
+    margin-right: 20px;
+}
+
+.content__left__colum_one h2 {
+    color: #20d1ee;
+    font-size: 18px;
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+    border-bottom: 1px dotted #000000;
+    font-weight: normal;
+}
+
+.content__left__colum_one p {
+
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.content__left__colum_one ul {
+
+    color: white;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.content__left__read__more {
+
+    clear: both;
+    float: left;
+    height: 21px;
+    width: 100px;
+    padding: 2px 0 0 10px;
+    margin: 0 15px 10px 0;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    background: url(images/templatemo_readmore_button.jpg) no-repeat;
+}
+
+.content__right__colums__two {
+    float: left;
+    width: 270px;
+    margin-right: 20px;
+}
+
+.content__right__colums__two h2 {
+    color: #20d1ee;
+    font-size: 18px;
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+    border-bottom: 1px dotted #000000;
+    font-weight: normal;
+}
+
+.content__right__colums__two h4 {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.content__right__colums__two h3 {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.content__right__colums__two p {
+
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.content__right__read__more a {
+
+    clear: both;
+    float: left;
+    height: 21px;
+    width: 100px;
+    padding: 2px 0 0 10px;
+    margin: 0 15px 10px 0;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    background: url(images/templatemo_readmore_button.jpg) no-repeat;
+}
+
+.cleaner {
+    clear: both;
+    width: 100%;
+    height: 1px;
+    font-size: 1px;
+}
+/* content right styling start here  */
+
+.content__right {
+    float: right;
+    width: 250px;
+    padding-top: 20px;
+}
+.content__right__top__div{
+    clear: both;
+    height: 182px;
+    padding: 18px 10px 0 10px;
+    margin-bottom: 15px;
+    background: url(images/templatemo_product_01_bg.jpg) no-repeat;
+}
+.content__right__top__div h1{
+
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+    padding: 0px;
+}
+.content__right__top__div h2{
+
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    padding: 0px;
+    color: white;
+}
+.content__right__top__div ul{
+
+    margin: 0 0 10px 0;
+    padding: 0px;
+    font-size: 13px;
+    color: white;
+    list-style-type: none;
+}
+.content__right__top__div__read__more a{
+
+    float: left;
+    height: 21px;
+    width: 100px;
+    padding: 2px 0 0 10px;
+    margin: 0 15px 10px 0;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    background: url(images/templatemo_readmore_button.jpg) no-repeat;
+}
+.content__right__bottom__div {
+
+    clear: both;
+    height: 182px;
+    padding: 18px 10px 0 10px;
+    background: url(images/templatemo_produc_02_bg.jpg) no-repeat;
+    color: white;
+}
+
+.content__right__bottom__div h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+    padding: 0px;
+}
+.content__right__bottom__div h2 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    padding: 0px;
+}
+.content__right__bottom__div ul{
+    margin: 0 0 10px 0;
+    padding: 0px;
+    font-size: 13px;
+    color: white;
+    list-style-type: none;
+}
+.content__right__bottom__div__read__more a{
+    float: left;
+    height: 21px;
+    width: 100px;
+    padding: 2px 0 0 10px;
+    margin: 0 15px 10px 0;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    background: url(images/templatemo_readmore_button.jpg) no-repeat;
+}
+/* content right styling end here  */
+.page__footer{
+
+    
+    clear: both;
+padding: 10px;
+width: 60%;
+margin: 0% auto;
+text-align: center;
+color: white;
+}
+.creater{
+    font-size: 20px;
+    margin: 3%;
+    color: blue;
+    text-decoration: double;
+    text-decoration-color: red;
+}
+
+
+
+
+
+
+.content__bottom__img {
+    clear: both;
+    width: 960px;
+    height: 30px;
+    margin-left: 202px;
+    background: url(images/templatemo_content_bottom.jpg) top center no-repeat;
+}
+
+/* ********************** website content  styling end here ********************* */
